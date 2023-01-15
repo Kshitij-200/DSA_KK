@@ -13,7 +13,7 @@ public class smallest_letter {
                 end = mid-1;
             }
         }
-        return start % size;
+        return arr[start % size];
     }
     public static void main(String[] args) {
         int [] arr = {5,10,15,20,25,30};
