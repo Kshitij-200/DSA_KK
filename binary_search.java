@@ -5,7 +5,7 @@ public class binary_search {
         int start = 0;
         int end = arr.length - 1;
         while (start <= end){
-            //int mid = (start + end)/2; //it may give some error because start + end may exceed the linit of the int
+            //int mid = (start + end)/2; //it may give some error because start + end may exceed the limit of the int
             int mid = start + (end - start)/2;
 
             if (target > arr[mid]){
