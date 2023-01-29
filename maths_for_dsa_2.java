@@ -5,7 +5,7 @@ public class maths_for_dsa_2 {
             for (int i = 2; i*i <= n; i++){
                 if (!primes[i]){
                     for (int j = i*2; j <= n;j+=i){
-                        primes[j] == true;
+//                        primes[j] == true;
                     }
                 }
             }
